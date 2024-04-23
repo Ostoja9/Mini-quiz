@@ -37,24 +37,28 @@ public class MyFrame extends JFrame implements MouseListener{
 		answer1=new JLabel();
 		answer1.setBounds(5,350,200,50);
 		answer1.setBackground(Color.LIGHT_GRAY);
+		answer1.setFont(new Font("MV Boli",Font.PLAIN,15));
 		answer1.setOpaque(true);
 		answer1.addMouseListener(this);
 		
 		answer2=new JLabel();
 		answer2.setBounds(280,350,200,50);
 		answer2.setBackground(Color.LIGHT_GRAY);
+		answer2.setFont(new Font("MV Boli",Font.PLAIN,15));
 		answer2.setOpaque(true);
 		answer2.addMouseListener(this);
 		
 		answer3=new JLabel();
 		answer3.setBounds(5,405,200,50);
 		answer3.setBackground(Color.LIGHT_GRAY);
+		answer3.setFont(new Font("MV Boli",Font.PLAIN,15));
 		answer3.setOpaque(true);
 		answer3.addMouseListener(this);
 		
 		answer4=new JLabel();
 		answer4.setBounds(280,405,200,50);
 		answer4.setBackground(Color.LIGHT_GRAY);
+		answer4.setFont(new Font("MV Boli",Font.PLAIN,15));
 		answer4.setOpaque(true);
 		answer4.addMouseListener(this);
 		
@@ -63,6 +67,7 @@ public class MyFrame extends JFrame implements MouseListener{
 		this.add(answer3);
 		this.add(answer4);
 		this.add(question);
+		this.setResizable(false);
 		this.setLayout(null);
 		this.setVisible(true);
 		
